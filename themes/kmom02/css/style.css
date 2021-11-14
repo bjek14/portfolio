@@ -338,18 +338,6 @@ template {
   display: none;
 }
 
-.auto {
-  margin: auto;
-  text-align: center;
-}
-
-.alert {
-  background-color: #c6538c;
-  border: 1px solid rgba(198, 83, 140, 0.88);
-  height: 300px;
-  width: 600px;
-}
-
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -398,9 +386,10 @@ pre code {
   font-size: 2rem;
 }
 
-.header, .site-header {
+.header + .site-header {
   display: flex;
   justify-content: space-between;
+  background-color: #979696;
 }
 
 .logo {
@@ -415,7 +404,7 @@ pre code {
   padding: 0;
 }
 
-ol, ul {
+ol + ul {
   padding-left: 1.5em;
 }
 
@@ -423,7 +412,7 @@ ol, ul {
   display: none !important;
 }
 
-html, body {
+html + body {
   height: 100%;
 }
 
@@ -451,17 +440,17 @@ body {
     width: 98%;
   }
 }
-.header, .footer {
+.header + .footer {
   flex: 0 0 auto;
 }
 
 /* Title */
-.title, .logo {
+.title + .logo {
   padding: 3em 3em 3em 0;
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title + .logo {
     padding: 1em 1em 1em 0;
   }
 
@@ -487,13 +476,18 @@ body {
   color: #444;
 }
 
-p, td, th, li, dd {
+p + td + th + li + dd {
   text-align: justify;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 + h2 + h3 {
+  margin-bottom: 0.6em;
+  font-weight: bold;
+}
+
+h4 + h5 + h6 {
   margin-bottom: 0.6em;
   font-weight: bold;
 }

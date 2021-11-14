@@ -5,7 +5,7 @@
     padding: 0;
 }
 
-ol, ul {
+ol + ul {
     padding-left: 1.5em;
 }
 
@@ -13,7 +13,7 @@ ol, ul {
     display: none !important;
 }
 
-html, body {
+html + body {
     height: 100%;
 }
 
@@ -44,23 +44,25 @@ body {
     }
 }
 
-.header, .footer {
+.header + .footer {
     flex: 0 0 auto;
 }
 
 /* Title */
 
-.title, .logo {
+.title + .logo {
     padding: 3em 3em 3em 0;
 }
 
 @media (max-width: 767px) {
-    .title, .logo {
+    .title + .logo {
         padding: 1em 1em 1em 0;
     }
+
     .title {
         min-width: 50%;
     }
+    
     .logo {
         max-width: 30%;
     }
