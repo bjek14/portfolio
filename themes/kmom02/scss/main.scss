@@ -5,7 +5,11 @@
     padding: 0;
 }
 
-ol + ul {
+ol {
+    padding-left: 1.5em;
+}
+
+ul {
     padding-left: 1.5em;
 }
 
@@ -13,7 +17,11 @@ ol + ul {
     display: none !important;
 }
 
-html + body {
+html {
+    height: 100%;
+}
+
+body {
     height: 100%;
 }
 
@@ -40,22 +48,39 @@ body {
 
 @media (max-width: 820px) {
     .main {
-        width: 98%;
+        width: 95%;
     }
 }
 
-.header + .footer {
+.header {
     flex: 0 0 auto;
 }
 
+.footer {
+    flex: 0 0 auto;
+
+    p {
+        font-size: 0.5em;
+    }
+}
+
+
 /* Title */
 
-.title + .logo {
+.title {
+    padding: 3em 3em 3em 0;
+}
+
+.logo {
     padding: 3em 3em 3em 0;
 }
 
 @media (max-width: 767px) {
-    .title + .logo {
+    .title {
+        padding: 1em 1em 1em 0;
+    }
+
+    .logo {
         padding: 1em 1em 1em 0;
     }
 

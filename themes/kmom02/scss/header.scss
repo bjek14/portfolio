@@ -1,4 +1,10 @@
-.header + .site-header {
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-color;
+}
+
+.site-header {
     display: flex;
     justify-content: space-between;
     background-color: $background-color;
