@@ -1,6 +1,6 @@
 ---
 Title: Hobby
-Description: Page about my bobby
+Description: Page about my hobby
 ---
 
 Min Hobby
