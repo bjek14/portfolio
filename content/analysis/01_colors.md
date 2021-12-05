@@ -9,7 +9,7 @@ Titel på rapporten
 =======================
 
 <!-- Skriv en eller två rader om vad uppgiften handlar om. -->
-Analysera färgval på tre webbplatser och i detta fallet har jag valt tre största städerna i Sverige. Analysen görs med hjälp av färgväljaren i webbläsaren.
+Analysera färgval på tre webbplatser och i detta fallet har jag valt tre största städerna i Sverige. Analysen görs med hjälp av färgväljaren (ColorZilla) i webbläsaren.
 
 Urval
 -----------------------
@@ -21,13 +21,14 @@ Metod
 -----------------------
 
 <!-- Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg. -->
-Jag använder mig av ColorZilla färgpipetten i Chrome för att plocka ut färgerna för de olika webbplatserna. Färgerna noteras i denna rapport under Resultat och jag använder ett färghjul för att analysera vilken färgschema som har använts.
+Jag använder mig av ColorZilla färgpipetten i Chrome för att plocka ut färgerna för de olika webbplatserna. Färgerna noteras i denna rapport under Resultat och jag använder ett färghjul för att analysera vilken färgschema som har använts från Adobe.
 
 Resultat
 -----------------------
 
 <!-- Dokumentera dina resultat från din studie. Berätta vad du kom fram till, vilka resultat du hittade och observerade. -->
 ### Stockholms stad
+![Stockholm](%base_url%/image/stockholm.jpg?w=200)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -44,6 +45,7 @@ Resultat
 Stockholms stad har använt sig av Komplementfärgspar färgchema eller Kvadrat färgschema med två starka färger: blå och lila. Dessa två starka färger följer Analog färgchema eller Komplementfärgspar färgchema.
 
 ### Göteborgs stad
+![Göteborg](%base_url%/image/goteborg.jpg?w=200)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -60,6 +62,7 @@ Stockholms stad har använt sig av Komplementfärgspar färgchema eller Kvadrat 
 Göteborgs stad har använt sig av Analog färgchema för att hitta samband mellan de gul/oranga färgerna, de gröna hittade jag inom Monokromt färgchema så även de rosa. Komplementfärgspar färgschema binder ihop orange, grön och rosa.
 
 ### Malmö stad
+![Malmö](%base_url%/image/malmo.jpg?w=200)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
