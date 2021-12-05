@@ -8,7 +8,8 @@ Template: analysis
 Titel på rapporten
 =======================
 
-Skriv en eller två rader om vad uppgiften handlar om.
+<!-- Skriv en eller två rader om vad uppgiften handlar om. -->
+Analysera laddningstider på tre webbplatser, för denna undersökningen har jag valt de tre största partierna. Analysen kommer att göras med Chromes analysverktyg.
 
 Urval
 -----------------------
