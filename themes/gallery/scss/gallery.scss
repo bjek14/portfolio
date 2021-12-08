@@ -5,7 +5,7 @@
     grid-template-rows: 260px 260px 260px;
 
     img {
-        border-radius: 0% 50% 50% 50% !important;
+        border-radius: 0% 50% 50% !important;
     }
 
     iframe {
@@ -26,9 +26,11 @@
 
 @media (max-width: 550px) {
     .gallery-container {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
-        grid-template-columns: 260px;
-        grid-template-rows: 260px 260px 260px;
+        max-width: 95%;
+        // grid-template-columns: 310px;
+        // grid-template-rows: 310px 310px 310px;
     }
 }
