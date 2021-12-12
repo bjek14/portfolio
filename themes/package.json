@@ -9,12 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass gallery/scss/style.scss gallery/css/style.css --no-source-map",
-    "style-min": "sass gallery/scss/style.scss gallery/css/style.min.css --no-source-map --style compressed",
-    "style-dark": "sass gallery/scss/style-dark.scss gallery/css/style-dark.css --no-source-map",
-    "style-dark-min": "sass gallery/scss/style-dark.scss gallery/css/style-dark.min.css --no-source-map --style compressed",
-    "style-light": "sass gallery/scss/style.scss gallery/css/style.css --no-source-map",
-    "style-light-min": "sass gallery/scss/style.scss gallery/css/style.min.css --no-source-map --style compressed"
+    "style": "sass design/scss/style.scss design/css/style.css --no-source-map",
+    "style-min": "sass design/scss/style.scss design/css/style.min.css --no-source-map --style compressed",
+    "style-dark": "sass design/scss/style-dark.scss design/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass design/scss/style-dark.scss design/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass design/scss/style.scss design/css/style.css --no-source-map",
+    "style-light-min": "sass design/scss/style.scss design/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",

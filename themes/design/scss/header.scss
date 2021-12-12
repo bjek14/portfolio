@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-color;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-color;
+}
+
+.logo {
+    max-width: 200px;
+    margin-left: 20px;
+    
+    img {
+        border-radius: 20%;
+    }
+}
+
+.nav {
+    color: $font-color;
+    font-weight: bold;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+
+
+    a:link {
+        color: $a-color;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: $a-color;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $a-color;
+        text-decoration: none;
+    }
+
+    a:active {
+        color: $a-color;
+        text-decoration: none;
+    }
+}

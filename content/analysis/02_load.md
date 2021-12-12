@@ -5,7 +5,7 @@ Description: För att visa olika analyser av webbsidor
 Template: analysis
 ---
 
-Titel på rapporten
+Hastighet
 =======================
 
 <!-- Skriv en eller två rader om vad uppgiften handlar om. -->
@@ -40,14 +40,15 @@ Resultat
 Analys
 -----------------------
 
-Diskutera och analysera de resultaten du fann.
+<!-- Diskutera och analysera de resultaten du fann. -->
 
 Referenser
 -----------------------
 
-Ange de eventuella referenser du använder dig av, om några.
+<!-- Ange de eventuella referenser du använder dig av, om några. -->
 
 Övrigt
 -----------------------
 
-Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten.
+<!-- Skriv ditt eget namn samt vilka gruppmedlemmar som deltog i att författa rapporten. -->
+Björn Ekengren

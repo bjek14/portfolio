@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5rem;
+    color: $body-color;
+    background-color: $background-body-color;
+}
+
+@mixin test {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+p {
+    @include test;
+}
+
+td {
+    @include test;
+}
+
+th {
+    @include test;
+}
+
+li {
+    @include test;
+}
+
+dd {
+    @include test;
+}
+
+// p + td + th + li + dd {
+//     text-align: justify;
+//     overflow-wrap: break-word;
+//     word-wrap: break-word;
+// }
+
+@mixin h {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+h1 {
+    @include h;
+}
+
+h2 {
+    @include h;
+}
+
+h3 {
+    @include h;
+}
+
+h4 {
+    @include h;
+}
+
+h5 {
+    @include h;
+}
+
+h6 {
+    @include h;
+}
+
+img {
+    max-width: 100%;
+}
+
+

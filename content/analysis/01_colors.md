@@ -5,7 +5,7 @@ Description: För att visa olika analyser av webbsidor
 Template: analysis
 ---
 
-Titel på rapporten
+Färger
 =======================
 
 <!-- Skriv en eller två rader om vad uppgiften handlar om. -->
